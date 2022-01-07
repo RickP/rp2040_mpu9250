@@ -20,7 +20,7 @@ Press the "boot" button and plug in the Pico board.
 Copy the file "rp2040_mpu9250.uf2" to the mass storage device.
 
 
-# Flash with a programmer
+## Flash with a programmer
 
 With pico-probe debugger (Using a pico as programmer)
 
