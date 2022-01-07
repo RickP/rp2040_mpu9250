@@ -14,12 +14,18 @@
     cmake..
     make
     
-## Flash
+## Flash over USB
 
-A:) Press the "boot" button and plug in the Pico board. Copy the file "rp2040_mpu9250.uf2" to the mass storage device.
+Press the "boot" button and plug in the Pico board. 
+Copy the file "rp2040_mpu9250.uf2" to the mass storage device.
 
-B:) With pico-probe debugger (Using a pico as programmer)
+
+# Flash with a programmer
+
+With pico-probe debugger (Using a pico as programmer)
 
 In build directory:
 
     make flash
+    
+Modify the "CMake.txt" to use a different debugger.
