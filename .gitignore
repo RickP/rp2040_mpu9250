@@ -1,0 +1,5 @@
+/cmake-build-*
+/build
+*.creator.user
+rp2040_mpu9250.*
+.DS_Store
