@@ -11,7 +11,7 @@
 
     mkdir build
     cd build
-    cmake..
+    cmake ..
     make
     
 ## Flash over USB
